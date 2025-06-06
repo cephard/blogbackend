@@ -91,9 +91,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/blogpost/{id}": {
+      },
       "delete": {
         "tags": [
           "MongoDb"

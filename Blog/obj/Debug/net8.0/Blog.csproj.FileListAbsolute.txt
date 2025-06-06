@@ -41,3 +41,4 @@ C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\MongoDB.Driver.dll
 C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\SharpCompress.dll
 C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\Snappier.dll
 C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\Blog.sourcelink.json
