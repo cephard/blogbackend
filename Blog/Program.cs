@@ -8,7 +8,7 @@ namespace Blog
 {
     public class Program
     {
-        public static async Task Main(string[] args)
+        public static Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -107,8 +107,7 @@ namespace Blog
             app.UseAuthorization();
 
             app.Run();
-            //return Task.CompletedTask;.
-
+            return Task.CompletedTask;
         }
     }
 }
