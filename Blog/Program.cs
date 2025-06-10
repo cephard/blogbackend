@@ -20,9 +20,10 @@ namespace Blog
             // Add CORS policy for Vite frontend
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowViteDevSever", policy =>
+                options.AddPolicy("AllowViteDevServer", policy =>
                 {
-                    policy.WithOrigins("http://localhost:5173")
+                    policy.WithOrigins("http://localhost:5173",
+                        "https://cephard.github.io/blog/")
                           .AllowAnyMethod()
                           .AllowAnyHeader();
                 });
@@ -90,7 +91,7 @@ namespace Blog
             app.MapDelete("/blogposts/{id}", async (string id)=>
             {
                 var postToDelete = await blogCollection.DeleteOneAsync(x => x.Id == id);
-                return postToDelete is not null ? Results.Ok("Deleted!") : Results.NotFound();
+                return postToDelete.DeletedCount > 0 ? Results.Ok("Deleted!") : Results.NotFound();
             }).WithName("BlogToDelete")
             .WithTags("MongoDb");
 
@@ -101,7 +102,7 @@ namespace Blog
                 app.UseSwaggerUI();
             }
 
-            app.UseCors("AllowViteDevSever");
+            app.UseCors("AllowViteDevServer");
             app.UseHttpsRedirection();
             app.UseAuthorization();
 

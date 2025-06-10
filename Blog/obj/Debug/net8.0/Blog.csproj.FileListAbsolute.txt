@@ -27,7 +27,6 @@ C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets\msbuild.b
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Blog.props
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Blog.props
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\Blog.csproj.Up2Date
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\Blog.dll
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\refint\Blog.dll
@@ -42,3 +41,4 @@ C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\SharpCompress.dll
 C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\Snappier.dll
 C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\ZstdSharp.dll
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\Blog.sourcelink.json
+C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
