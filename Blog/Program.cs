@@ -2,6 +2,7 @@
 using Blog.Models;
 using Microsoft.VisualBasic;
 using Microsoft.Extensions.Hosting;
+using MongoDB.Bson;
 
 namespace Blog
 {
@@ -74,13 +75,16 @@ namespace Blog
             .WithName("GetAllBlogPosts")
             .WithTags("MongoDb");
 
-            //getting the blogpost by id 
-            app.MapGet("/blogposts/{id}", async (string id) =>
+            //getting blogpost by title
+            app.MapGet("/blogposts/{title}", async (string title) =>
             {
-                var post = await blogCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
-                return post is not null ? Results.Ok<BlogPost>(post) : Results.NotFound();
-            }).WithName("BlogById")
+                var filter = Builders<BlogPost>.Filter.Regex("Title", new BsonRegularExpression($"^{title}", "i")); // "i" for case-insensitive
+                var posts = await blogCollection.Find(filter).ToListAsync();
+                return posts.Any() ? Results.Ok(posts) : Results.NotFound();
+            })
+            .WithName("BlogByTitle")
             .WithTags("MongoDb");
+
 
             //deleting the blogpost
             app.MapDelete("/blogposts/{id}", async (string id)=>

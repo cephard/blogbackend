@@ -71,11 +71,11 @@
           }
         }
       },
-      "get": {
+      "delete": {
         "tags": [
           "MongoDb"
         ],
-        "operationId": "BlogById",
+        "operationId": "BlogToDelete",
         "parameters": [
           {
             "name": "id",
@@ -91,15 +91,17 @@
             "description": "OK"
           }
         }
-      },
-      "delete": {
+      }
+    },
+    "/blogposts/{title}": {
+      "get": {
         "tags": [
           "MongoDb"
         ],
-        "operationId": "BlogToDelete",
+        "operationId": "BlogByTitle",
         "parameters": [
           {
-            "name": "id",
+            "name": "title",
             "in": "path",
             "required": true,
             "schema": {
