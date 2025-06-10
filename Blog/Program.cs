@@ -103,7 +103,7 @@ namespace Blog
             }
 
             app.UseCors("AllowViteDevServer");
-            app.UseHttpsRedirection();
+           // app.UseHttpsRedirection();
             app.UseAuthorization();
 
             app.Run();
