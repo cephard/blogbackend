@@ -42,3 +42,5 @@ C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\Snappier.dll
 C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\ZstdSharp.dll
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\Blog.sourcelink.json
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\Sprache.dll
