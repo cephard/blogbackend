@@ -12,10 +12,9 @@ namespace Blog
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            if (builder.Environment.IsDevelopment())
-            {
+        
                 Env.Load();
-            }
+            
 
             var mongoConnectionString = Environment.GetEnvironmentVariable("MONGO_DB_CONNECTION_STRING");
             var databaseName = Environment.GetEnvironmentVariable("DatabaseName");
