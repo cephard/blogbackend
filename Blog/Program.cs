@@ -11,6 +11,8 @@ namespace Blog
         public static Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Configuration.AddEnvironmentVariables();
+
 
             // Add services to the container.
             builder.Services.AddAuthorization();
@@ -33,7 +35,9 @@ namespace Blog
 
             // MongoDB connection setup
             var config = app.Configuration;
-            var mongoConnectionString = config.GetSection("BlogDatabaseSettings")["ConnectionString"];
+            // var mongoConnectionString = config.GetSection("BlogDatabaseSettings")["ConnectionString"];
+            var mongoConnectionString = builder.Configuration["ConnectionString"] ?? 
+                config.GetSection("BlogDatabaseSettings")["ConnectionString"];
 
             var client = new MongoClient(mongoConnectionString);
             var database = client.GetDatabase("blog");
