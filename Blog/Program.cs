@@ -39,6 +39,9 @@ namespace Blog
             var database = client.GetDatabase("blog");
             var blogCollection = database.GetCollection<BlogPost>("blogpost");
 
+            app.MapGet("/", () => "Backend is running!");
+
+
             //end points
             //posting a new blogpost into mongodb
             app.MapPost("/blogposts", async (BlogPost newBlogPost) =>
