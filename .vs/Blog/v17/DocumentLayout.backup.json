@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\cepha\\source\\repos\\Blog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69D109AF-8DCA-475E-A0C4-1B14312236E7}|Blog\\Blog.csproj|c:\\users\\cepha\\source\\repos\\blog\\blog\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{69D109AF-8DCA-475E-A0C4-1B14312236E7}|Blog\\Blog.csproj|solutionrelative:blog\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{BFC2E630-7AD2-48FD-853E-6399DE282D39}|Solution Items{BFC2E630-7AD2-48FD-853E-6399DE282D39}|C:\\Users\\cepha\\source\\repos\\Blog\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{BFC2E630-7AD2-48FD-853E-6399DE282D39}|Solution Items{BFC2E630-7AD2-48FD-853E-6399DE282D39}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69D109AF-8DCA-475E-A0C4-1B14312236E7}|Blog\\Blog.csproj|c:\\users\\cepha\\source\\repos\\blog\\blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69D109AF-8DCA-475E-A0C4-1B14312236E7}|Blog\\Blog.csproj|solutionrelative:blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFC2E630-7AD2-48FD-853E-6399DE282D39}|Solution Items{BFC2E630-7AD2-48FD-853E-6399DE282D39}|C:\\Users\\cepha\\source\\repos\\Blog\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{BFC2E630-7AD2-48FD-853E-6399DE282D39}|Solution Items{BFC2E630-7AD2-48FD-853E-6399DE282D39}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69D109AF-8DCA-475E-A0C4-1B14312236E7}|Blog\\Blog.csproj|c:\\users\\cepha\\source\\repos\\blog\\blog\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69D109AF-8DCA-475E-A0C4-1B14312236E7}|Blog\\Blog.csproj|solutionrelative:blog\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D109AF-8DCA-475E-A0C4-1B14312236E7}|Blog\\Blog.csproj|c:\\users\\cepha\\source\\repos\\blog\\blog\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69D109AF-8DCA-475E-A0C4-1B14312236E7}|Blog\\Blog.csproj|solutionrelative:blog\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,32 +34,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\cepha\\source\\repos\\Blog\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
               "ToolTip": "C:\\Users\\cepha\\source\\repos\\Blog\\.gitignore",
               "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-10T12:29:55.613Z"
+              "WhenOpened": "2025-06-10T12:29:55.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\cepha\\source\\repos\\Blog\\Blog\\Dockerfile",
               "RelativeDocumentMoniker": "Blog\\Dockerfile",
               "ToolTip": "C:\\Users\\cepha\\source\\repos\\Blog\\Blog\\Dockerfile",
               "RelativeToolTip": "Blog\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-06-10T11:52:17.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BlogPost.cs",
               "DocumentMoniker": "C:\\Users\\cepha\\source\\repos\\Blog\\Blog\\Models\\BlogPost.cs",
               "RelativeDocumentMoniker": "Blog\\Models\\BlogPost.cs",
@@ -67,7 +68,8 @@
               "RelativeToolTip": "Blog\\Models\\BlogPost.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T09:15:28.585Z"
+              "WhenOpened": "2025-06-07T09:15:28.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,9 +79,10 @@
               "RelativeDocumentMoniker": "Blog\\Program.cs",
               "ToolTip": "C:\\Users\\cepha\\source\\repos\\Blog\\Blog\\Program.cs",
               "RelativeToolTip": "Blog\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T13:43:59.503Z"
+              "WhenOpened": "2025-06-05T13:43:59.503Z",
+              "EditorCaption": ""
             }
           ]
         }
