@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Blog\\Dockerfile",
               "ToolTip": "C:\\Users\\cepha\\source\\repos\\Blog\\Blog\\Dockerfile",
               "RelativeToolTip": "Blog\\Dockerfile",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-06-10T11:52:17.623Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "Blog\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T13:43:59.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T13:43:59.503Z"
             }
           ]
         }

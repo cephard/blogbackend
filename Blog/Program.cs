@@ -96,11 +96,11 @@ namespace Blog
             .WithTags("MongoDb");
 
             // Enable Swagger in dev mode
-            if (app.Environment.IsDevelopment())
-            {
+           // if (app.Environment.IsDevelopment())
+            //{
                 app.UseSwagger();
                 app.UseSwaggerUI();
-            }
+           // }
 
             app.UseCors("AllowViteDevServer");
            // app.UseHttpsRedirection();
