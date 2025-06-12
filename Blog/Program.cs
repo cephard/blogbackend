@@ -19,6 +19,8 @@ namespace Blog
             var mongoConnectionString = Environment.GetEnvironmentVariable("MONGO_DB_CONNECTION_STRING");
             var databaseName = Environment.GetEnvironmentVariable("DatabaseName");
             var collectionName = Environment.GetEnvironmentVariable("POSTS_COLLECTION_NAME");
+            var localClient = Environment.GetEnvironmentVariable("LOCAL_HOST_CLIENT");
+            var onlineClient = Environment.GetEnvironmentVariable("ONLINE_CLIENT");
 
 
             builder.Configuration.AddEnvironmentVariables();
@@ -34,8 +36,7 @@ namespace Blog
             {
                 options.AddPolicy("AllowViteDevServer", policy =>
                 {
-                    policy.WithOrigins("http://localhost:5173",
-                        "https://cephard.github.io/blog/")
+                    policy.WithOrigins(onlineClient,localClient)
                           .AllowAnyMethod()
                           .AllowAnyHeader();
                 });
