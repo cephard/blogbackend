@@ -10,21 +10,15 @@ namespace Blog
     {
         public static Task Main(string[] args)
         {
+            Env.Load();
             var builder = WebApplication.CreateBuilder(args);
-
-        
-                Env.Load();
-            
-
             var mongoConnectionString = Environment.GetEnvironmentVariable("MONGO_DB_CONNECTION_STRING");
             var databaseName = Environment.GetEnvironmentVariable("DatabaseName");
             var collectionName = Environment.GetEnvironmentVariable("POSTS_COLLECTION_NAME");
             var localClient = Environment.GetEnvironmentVariable("LOCAL_HOST_CLIENT");
             var onlineClient = Environment.GetEnvironmentVariable("ONLINE_CLIENT");
 
-
             builder.Configuration.AddEnvironmentVariables();
-
 
             // Add services to the container.
             builder.Services.AddAuthorization();
@@ -46,15 +40,12 @@ namespace Blog
 
             // MongoDB connection setup
             var config = app.Configuration;
-            // var mongoConnectionString = config.GetSection("BlogDatabaseSettings")["ConnectionString"];
-           // var mongoConnectionString = builder.Configuration["ConnectionString"] ?? 
-             //   config.GetSection("BlogDatabaseSettings")["ConnectionString"];
 
             var client = new MongoClient(mongoConnectionString);
             var database = client.GetDatabase("blog");
             var blogCollection = database.GetCollection<BlogPost>("blogpost");
 
-            app.MapGet("/", () => "Backend is running!");
+            app.MapGet("/", () => "This is for test -> Backend is running!");
 
 
             //end points
@@ -113,12 +104,12 @@ namespace Blog
             }).WithName("BlogToDelete")
             .WithTags("MongoDb");
 
-            // Enable Swagger in dev mode
-           // if (app.Environment.IsDevelopment())
-            //{
+            //Enable Swagger in dev mode
+           if (app.Environment.IsDevelopment())
+            {
                 app.UseSwagger();
                 app.UseSwaggerUI();
-           // }
+           }
 
             app.UseCors("AllowViteDevServer");
            // app.UseHttpsRedirection();

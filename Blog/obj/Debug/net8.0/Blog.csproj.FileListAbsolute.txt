@@ -21,12 +21,6 @@ C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\scopedcss\bundle\Blog.sty
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets\msbuild.Blog.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets\msbuild.Blog.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets\msbuild.build.Blog.props
-C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Blog.props
-C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Blog.props
-C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\Blog.csproj.Up2Date
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\Blog.dll
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\refint\Blog.dll
@@ -44,3 +38,8 @@ C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\Blog.sourcelink.json
 C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\DotNetEnv.dll
 C:\Users\cepha\source\repos\Blog\Blog\bin\Debug\net8.0\Sprache.dll
+C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\cepha\source\repos\Blog\Blog\obj\Debug\net8.0\staticwebassets.build.json.cache
